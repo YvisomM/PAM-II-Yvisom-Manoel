@@ -17,36 +17,36 @@ export default function Index() {
             style={styles.image}
           />
         </Link>
-        <View style={styles.box}>
+        <Link to="/tela03" style={styles.box}>
           <Image
             source={{ uri: 'https://64.media.tumblr.com/36ee9686549e49185c51c2e52eb2b27c/5cd40311cd32f791-39/s1280x1920/21416cbca419873e86e4f8ce9fdf859737d24ba3.png' }}
             style={styles.image}
           />
-        </View>
-        <View style={styles.box}>
+        </Link>
+        <Link to="/tela04" style={styles.box}>
           <Image
             source={{ uri: 'https://statics.koreanbuilds.net/tile_200x200/Syndra.webp' }}
             style={styles.image}
           />
-        </View>
-        <View style={styles.box}>
+        </Link>
+        <Link to="/tela05" style={styles.box}>
           <Image
             source={{ uri: 'https://i.pinimg.com/736x/7c/e4/d4/7ce4d40d2c91b34b323f1d6a59df1b3b.jpg' }}
             style={styles.image}
           />
-        </View>
-        <View style={styles.box}>
+        </Link>
+        <Link to="/tela06" style={styles.box}>
           <Image
             source={{ uri: 'https://i.pinimg.com/564x/32/4c/20/324c20711a3c6cfa605eeed09b319e44.jpg' }}
             style={styles.image}
           />
-        </View>
-        <View style={styles.box}>
+        </Link>
+        <Link to="/tela07" style={styles.box}>
           <Image
             source={{ uri: 'https://preview.redd.it/new-zyra-icon-upscaled-v0-2m9275qnvgib1.jpg?width=1080&crop=smart&auto=webp&s=3fbe927110f364920c36f6ca9db2a2571f64ae41' }}
             style={styles.image}
           />
-        </View>
+        </Link>
       </ScrollView>
     </View>
   );
