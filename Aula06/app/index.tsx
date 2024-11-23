@@ -144,7 +144,7 @@ const App = () => {
       <TouchableOpacity style={styles.button} onPress={deleteData}>
         <Text style={styles.buttonText}>Excluir</Text>
       </TouchableOpacity>
-      <Text style={styles.instruction}>Para atualizar, clique no nome desejado:</Text>
+      <Text style={styles.instruction}>Para atualizar ou Excluir, clique no nome desejado:</Text>
       <FlatList
         data={nomes}
         keyExtractor={item => item.id}
